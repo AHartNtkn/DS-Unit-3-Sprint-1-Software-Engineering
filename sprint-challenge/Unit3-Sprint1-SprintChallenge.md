@@ -270,6 +270,10 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
+- I think comments on readability are most important in code review. A review is an indication that others will be reading my code, and ensuring that someone can follow along with what's been written is essential. Refactoring tips are also important. Making code simple both aids in readability and reliability.
+
+- Containers contain virtualized environments that can be consistently copied across computers. This can ensure that everyone has the same setup and can run the same code across different computers with different OSs, so long as they are all using the same image. Additionally, programing within such a consistent environment can guarantee that new code will work across these images.
+
 ### Part 8 - Turn it in!
 
 Add all the files you wrote (`acme.py`, `acme_report.py`, and `acme_test.py`),
