@@ -1,11 +1,13 @@
 from acme import Product
 from random import randint, choice, uniform
 
+
 def mean(l):
     return sum(l)/len(l)
 
 ADJECTIVES = ['Awesome', 'Shiny', 'Impressive', 'Portable', 'Improved']
 NOUNS = ['Anvil', 'Catapult', 'Disguise', 'Mousetrap', '???']
+
 
 def generate_products(num_products=30):
     newProds = [Product(
@@ -16,6 +18,7 @@ def generate_products(num_products=30):
                 for _ in range(num_products)]
 
     return newProds
+
 
 def inventory_report(products):
     unique_names = len(set([p.name for p in products]))
